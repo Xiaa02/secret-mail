@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To someone✉️</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/7292/7292483.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" crossorigin="anonymous" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="lid one"></div>
+      <div class="lid two"></div>
+      <div class="envelope" onclick="openEnvelope()"></div>
+      <div class="letter">
+        <p>Here's a virtual hug for you sayangku!</p>
+        <div class="human">
+          <div class="left-hand"></div>
+          <div class="right-hand"></div>
+          <div class="face">
+            <div class="left-eye"></div>
+            <div class="right-eye"></div>
+            <div class="nose"></div>
+          </div>
+        </div>
+      </div>
+      <div class="hearts">
+        <div class="heart a1"></div>
+        <div class="heart a2"></div>
+        <div class="heart a3"></div>
+        <div class="heart a4"></div>
+        <div class="heart a5"></div>
+        <div class="heart a6"></div>
+        <div class="heart a7"></div>
+        <div class="heart a8"></div>
+        <div class="heart a9"></div>
+        <div class="heart a10"></div>
+        <div class="heart a11"></div>
+        <div class="heart a12"></div>
+        <div class="heart a13"></div>
+        <div class="heart a14"></div>
+        <div class="heart a15"></div>
+        <div class="heart a16"></div>
+        <div class="heart a17"></div>
+        <div class="heart a18"></div>
+        <div class="heart a19"></div>
+        <div class="heart a20"></div>
+      </div>
+    </div>
+
+    <script>
+      let isClicked = false;
+
+      function openEnvelope() {
+        if (!isClicked) {
+          document.querySelector(".wrapper").classList.add("clicked");
+          isClicked = true;
+        }
+      }
+    </script>
+  </body>
+</html>
